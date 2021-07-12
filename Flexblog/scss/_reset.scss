@@ -11,7 +11,7 @@ a {
 
 body {
   font-family: "Nunito", Helvetica, Arial, sans-serif;
-  color: #222222;
+  color: $preto;
 }
 
 ul {
@@ -28,6 +28,5 @@ img {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
