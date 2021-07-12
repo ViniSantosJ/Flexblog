@@ -62,3 +62,43 @@
     color: $azul-principal;
   }
 }
+
+/* Introdução */
+.introducao {
+  font-size: 3em;
+  line-height: 1;
+  max-width: $container;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+/* sobre */
+.sobre {
+  border-top: 2px solid $azul-principal;
+  border-bottom: 2px solid $azul-principal;
+  max-width: $container;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px; // Quando quebrar o sobre-info e chegar em 300px, ele ''quebra''.
+  margin: 0 10px;
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: $light-gray;
+  }
+}
+
+.sobre-img {
+  flex: 1 1 160px; // Quando quebrar o sobre-info e chegar em 160px, ele ''quebra'' a img.
+  margin: 0 10px;
+}
